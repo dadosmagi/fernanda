@@ -2,7 +2,7 @@ import streamlit as st
 import api
 
 
-df = api.final_df(st.secrets("api_key"))
+df = api.final_df(st.secrets["api_key"])
 print(df)
 
 def main():
